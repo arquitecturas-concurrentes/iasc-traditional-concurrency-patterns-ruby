@@ -9,6 +9,8 @@ The objective of this repository is to show the most common concurrent algorithm
 
 ## Problems in Ruby Interpreter
 
+![Alt text](https://raw.githubusercontent.com/frp-utn/ruby-concurrent-patterns/master/xruby-gil-jvm.png)
+
 Ruby can inplement concurrency but not parallelism due to the global interpreter lock, which is a mutual exclusion lock. This lock is held by the interpreter thread and uses it to prevent sharing code that's not thread safe with other threads. All the interpreter threads have their own GIL. 
 Due to this GIL, if a Ruby program has different threads, they can't run at the same time, because GIL will only allow one thread to run at the same time. Before Ruby 1.9, there was only one operating system thread also. After Ruby 1.9, we can have multiple OS threads so we can now use more than one processor core. There's still a drawback that is, we'll still use one thread at a time and again not taking advantage of the multicore architecture. 
 
