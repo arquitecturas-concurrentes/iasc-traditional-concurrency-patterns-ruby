@@ -1,6 +1,6 @@
 require_relative 'semaphore'
 
-class Program
+class NightClub
 
   attr_accessor :bouncer
 
@@ -11,11 +11,11 @@ class Program
 
   def open_night_club
     (1..50).step { |i|
-       thread = Thread.new {
-         Thread.current[:name] = i
-         guest
-       }
-       sleep(0.5)
+      Thread.new {
+        Thread.current[:name] = i
+        guest
+      }
+      sleep(0.5)
     }
   end
 
@@ -30,4 +30,4 @@ class Program
 
 end
 
-Program.new
+NightClub.new

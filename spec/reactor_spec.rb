@@ -1,4 +1,4 @@
-require_relative '../src/reactor'
+require_relative '../src/reactor/reactor'
 
 describe 'test reactor core' do
 
@@ -14,8 +14,6 @@ describe 'test reactor core' do
     @reactor.run_cycle
     expect(buffer).to eq('Hola Mundo!')
   end
-
-
 
 
 end

@@ -197,11 +197,11 @@ module Reactor
     end
 
     def process_ios
-      ios.each{|io| self.process_io io}.clear
+      ios.each { |io| self.process_io io }.clear
     end
 
     def process_io(io)
-      io[1].call io[0],self
+      io[1].call io[0], self
     end
 
     def check_valid_mode(mode)
@@ -211,7 +211,6 @@ module Reactor
     end
 
   end
-
 
 end
 
