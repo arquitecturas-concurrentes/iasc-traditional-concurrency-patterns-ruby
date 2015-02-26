@@ -3,3 +3,7 @@ script: "bundle exec rake"
 rvm:
   - 2.0.0
   - 2.1.2
+addons:
+    code_climate:
+      repo_token: d48e79574a81ca84c6ea7e9ed136a970faee31b737f178a8a21fe281f7051848
+env: CODECLIMATE_REPO_TOKEN=d48e79574a81ca84c6ea7e9ed136a970faee31b737f178a8a21fe281f7051848
