@@ -6,7 +6,6 @@ class NightClub
 
   def initialize
     self.bouncer = Semaphore.new(3)
-    self.open_night_club
   end
 
   def open_night_club
@@ -17,6 +16,7 @@ class NightClub
       }
       sleep(0.5)
     }
+    sleep(2)
   end
 
   def guest
@@ -30,4 +30,5 @@ class NightClub
 
 end
 
-NightClub.new
+nightclub = NightClub.new
+nightclub.open_night_club
