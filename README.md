@@ -28,7 +28,8 @@ Some of the patterns/techniques will be:
 - Fibers
 - Reactor
 - DataFlow
-- Actors(?): TBA
+- Mutex/Semaphores
+- IPC
 
 
 
