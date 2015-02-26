@@ -2,6 +2,8 @@ Ruby Concurrent Patterns
 ==========
 
 [![Build Status](https://travis-ci.org/frp-utn/ruby-concurrent-patterns.svg)](https://travis-ci.org/frp-utn/ruby-concurrent-patterns)
+[![Code Climate](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns/badges/gpa.svg)](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns)
+[![Code Climate](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns/badges/gpa.svg)](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns)
 
 ##Objective
 
