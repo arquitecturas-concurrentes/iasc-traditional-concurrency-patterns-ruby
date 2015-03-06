@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/frp-utn/ruby-concurrent-patterns.png?label=ready&title=Ready)](https://waffle.io/frp-utn/ruby-concurrent-patterns)
 Ruby Concurrent Patterns
 ==========
 
