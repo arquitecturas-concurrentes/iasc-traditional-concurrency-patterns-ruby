@@ -5,7 +5,7 @@ Ruby Concurrent Patterns
 [![Code Climate](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns/badges/gpa.svg)](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns)
 [![Test Coverage](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns/badges/coverage.svg)](https://codeclimate.com/github/frp-utn/ruby-concurrent-patterns)
 
-##Objective
+## Objective
 
 The objective of this repository is to show the most common concurrent algorithms for concurrency in Ruby, using the Ruby interpreter. Then implement these patterns or other ones on JRuby and make conclussions on results.
 
@@ -18,7 +18,7 @@ Due to this GIL, if a Ruby program has different threads, they can't run at the 
 
 On Java you can define multiple threads, the difference is that on the JVM, it can map each JVM thread to a OS one, this will take advantage of the multicore architecture.
 
-##Patterns
+## Patterns
 
 This repo will have initially Ruby implementations of concurrent patterns, and then similar implementations on JRuby.
 

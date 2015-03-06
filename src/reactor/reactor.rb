@@ -187,7 +187,7 @@ module Reactor
       handler_manager.get_events_io
     end
 
-    def fire_events mode, ios
+    def fire_events(mode, ios)
       handler_manager = get_handler_manager mode
       ios.each do |io|
         event = handler_manager.get_event io
